@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "G3dg9bDlfnYnWDfpsMIUifdjWa9sioG2JfN/N6ChLco=",
+  "Source": "Kiron.Test.Web.API",
+  "BasePath": "_content/Kiron.Test.Web.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

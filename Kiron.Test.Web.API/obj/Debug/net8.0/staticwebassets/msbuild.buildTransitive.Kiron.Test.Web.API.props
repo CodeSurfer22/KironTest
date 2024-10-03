@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Kiron.Test.Web.API.props" />
+</Project>

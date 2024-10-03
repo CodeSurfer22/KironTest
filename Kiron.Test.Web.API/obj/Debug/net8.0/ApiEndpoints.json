@@ -1,0 +1,196 @@
+[
+  {
+    "ContainingType": "Kiron.Test.Web.API.Controllers.KironController",
+    "Method": "FetchAndUpdateBankHolidays",
+    "RelativePath": "api/Kiron/bank-holidays/fetch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kiron.Test.Web.API.Controllers.KironController",
+    "Method": "GetCoinStats",
+    "RelativePath": "api/Kiron/coin-stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kiron.Test.Web.API.Controllers.KironController",
+    "Method": "InsertHolidayWithRegions",
+    "RelativePath": "api/Kiron/holidays",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Kiron.Test.Web.API.Controllers.HolidayWithRegionsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kiron.Test.Web.API.Controllers.KironController",
+    "Method": "UpdateHolidayWithRegions",
+    "RelativePath": "api/Kiron/holidays",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Kiron.Test.Web.API.Controllers.HolidayWithRegionsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kiron.Test.Web.API.Controllers.KironController",
+    "Method": "GetHolidayById",
+    "RelativePath": "api/Kiron/holidays/{holidayId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "holidayId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kiron.Test.Web.API.Controllers.KironController",
+    "Method": "GetHolidaysByRegion",
+    "RelativePath": "api/Kiron/holidays/region/{regionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "regionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kiron.Test.Web.API.Controllers.KironController",
+    "Method": "Login",
+    "RelativePath": "api/Kiron/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kiron.Test.Web.API.Controllers.KironController",
+    "Method": "GetNavigationTree",
+    "RelativePath": "api/Kiron/navigation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kiron.Test.Web.API.Controllers.KironController",
+    "Method": "InsertRegion",
+    "RelativePath": "api/Kiron/regions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "region",
+        "Type": "DAL.Models.Region",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kiron.Test.Web.API.Controllers.KironController",
+    "Method": "UpdateRegion",
+    "RelativePath": "api/Kiron/regions",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "region",
+        "Type": "DAL.Models.Region",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kiron.Test.Web.API.Controllers.KironController",
+    "Method": "GetRegionById",
+    "RelativePath": "api/Kiron/regions/{regionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "regionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kiron.Test.Web.API.Controllers.KironController",
+    "Method": "GetAllRegions",
+    "RelativePath": "api/Kiron/regions/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kiron.Test.Web.API.Controllers.KironController",
+    "Method": "Register",
+    "RelativePath": "api/Kiron/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
